@@ -115,6 +115,7 @@ def flash_lights (morse, ms):
         if word_index != len(morse) - 1:
                 print(seven_units)
                 time.sleep(seven_units)
+    return
 
 while True:
     try:
